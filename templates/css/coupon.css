@@ -1,0 +1,37 @@
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+.card {
+	margin: 2%;
+	background: #F89;
+	display: block;
+	overflow: hidden;
+	border-radius: 10px;
+	padding: 0px 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 130px;
+}
+
+.title {
+	font-size: 25px;
+	width: 500px;
+	text-align: center;
+	display: table-cell;
+	color: white;
+	padding-top: 35px;
+}
+
+.card div {
+	height: 130px;
+	background-color: #F69;
+}
+.limit{
+	font-size: 12px;
+	color: white;
+	padding-top: 35px;
+	padding-right: 15px;
+	float: right;
+}

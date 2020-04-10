@@ -1,0 +1,13 @@
+.orderlist .lists>li .bottom a {
+	float: right;
+	padding: 4px 12px;
+	background: #d51b44;
+	text-align: center;
+	color: #fff;
+	margin-right: 35px;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}

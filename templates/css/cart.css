@@ -1,0 +1,66 @@
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+a:active {
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-user-select: none;
+	-moz-user-focus: none;
+	-moz-user-select: none;
+}
+
+.t {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.lists div.l img.img-responsive {
+	margin-left: 10px;
+}
+
+.lists div.l img.true {
+	content: url(../img/y1.png);
+	display: inline-block;
+	vertical-align: middle;
+	width: 1.875rem;
+	margin-left: 0.625rem;
+	margin-top: -70px;
+	position: relative;
+}
+
+.lists div.l img.false {
+	content: url(../img/n1.png);
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	margin-left: 10px;
+	margin-top: -70px;
+	position: relative;
+}
+
+.cart {
+	position: absolute;
+	left: 0;
+	z-index: 9;
+}
+
+.lin60 {
+	height: 60px;
+}
+
+.lists li .num_con {
+	display: block;
+}
+
+.showaddcart img {
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.x {
+	width: 18px;
+	float: right;
+	z-index: 9999
+}

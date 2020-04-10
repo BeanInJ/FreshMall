@@ -1,0 +1,120 @@
+*{
+	color: #6c6c6c;
+}
+a {
+	color: white;
+}
+.header {
+	height: 130px;
+	position: relative;
+	background: #FA2C2A;
+	background-size: auto auto;
+	background-size: 100% 100%;
+	border: none;
+}
+
+.header .img {
+	width: 60px;
+	border-radius: 40px;
+	top: 30px;
+	left: 40px;
+	position: absolute;
+}
+
+.header .mobile {
+	color: #fff;
+	position: absolute;
+	left: 130px;
+	top: 40px;
+	font-size: 16px;
+}
+
+.header .nickname {
+	color: #fff;
+	position: absolute;
+	left: 130px;
+	top: 15px;
+	font-size: 16px;
+}
+
+.header .vip {
+	color: yellow;
+	position: absolute;
+	left: 130px;
+	top: 90px;
+	font-size: 10px;
+}
+
+.header .register {
+	color: white;
+	position: absolute;
+	right: 70px;
+	top: 40px;
+	font-size: 25px;
+}
+
+.header .login {
+	color: white;
+	position: absolute;
+	left: 70px;
+	top: 40px;
+	font-size: 25px;
+}
+.logoutul{
+	text-align: center;
+	display: block;
+	width: 100%;
+	height: 40px;
+	float: none;
+	/* line-height: 0rem; */
+	background-color: white;
+	margin-top: 164px;
+}
+.logout {
+	margin-top: 164px;
+	color: #6c6c6c;
+}
+.userlist .ico-order {
+	background: url('../img/user2.png') center center no-repeat;
+	background-size: 32px;
+}
+
+.userlist .ico-customer {
+	background: url('../img/user6.png') center center no-repeat;
+	background-size: 32px;
+}
+
+.userlist .ico-about {
+	background: url('../img/user5.png') center center no-repeat;
+	background-size: 32px;
+}
+
+.userlist .ico-reward {
+	background: url('../img/insign.gif') center center no-repeat;
+	background-size: 32px;
+}
+.userlist .ico-insign {
+	background: url('../img/insign1.png') center center no-repeat;
+	background-size: 32px;
+}
+.userlist .ico-recommend {
+	background: url('../img/user3.png') center center no-repeat;
+	background-size: 32px;
+}
+
+.userlist .ico-coupon {
+	background: url('../img/user4.png') center center no-repeat;
+	background-size: 32px;
+}
+.userlist .ico-logout {
+	background: url('../img/logout.png') center center no-repeat;
+	background-size: 32px;
+}
+.userlist .ico-addr {
+	background: url('../img/addr.png') center center no-repeat;
+	background-size: 32px;
+}
+.userlist .ico-cou {
+	background: url('../img/coupon.png') center center no-repeat;
+	background-size: 32px;
+}

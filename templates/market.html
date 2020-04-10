@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!-- Title here -->
+		<title>商城</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="生鲜购物商城" />
+		<meta name="keywords" content="生鲜购物商城" />
+		<meta name="author" content="生鲜购物商城" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=no" />
+		<link rel="shortcut icon" href="/templates/img/icon.png" type="image/x-icon">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" type="text/css" href="/templates/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="/templates/css/market.css" />
+		<!-- js -->
+		<script src="/templates/js/jquery.js" type="text/javascript"></script>
+		<script type="text/javascript" src="/templates/js/market.js"></script>
+	</head>
+	<body>
+		<div class="ng-scope">
+			<div class="content ng-scope">
+
+				<!-- 全部类型、综合排序-->
+				<div class="t_r_div">
+					<section class="t_r">
+						<div class="t">
+							<span class="table active" id="all_types">全部分类</span>&nbsp &nbsp &nbsp &nbsp|&nbsp &nbsp &nbsp
+							<span class="table" id="sort_rule">综合排序</span>
+						</div>
+						<div id="grey" class="grey1" style="display: none;">
+							<div class="bnb">
+								<a>
+									<button class="bnn btn-success">这是分类</button>
+									<button class="bnn btn-default">这是分类</button>
+								</a>
+							</div>
+						</div>
+						<div id="grey" class="grey2" style="display: none;">
+							<div class="bnb">
+								<a>
+									<button class="bnn btn-success">这是分类</button>
+									<button class="bnn btn-default">这是分类</button>
+								</a>
+							</div>
+						</div>
+					</section>
+				</div>
+
+				<!-- 切换逻辑：商品的class为cate，hide隐藏、show显示 -->
+
+				<!-- 左侧商品类型 -->
+				<aside style="height:663px">
+					<ul id="aside"></ul>
+				</aside>
+				<section class="foods_list">
+
+				</section>
+				<!--底部导航-->
+				<nav class="ng-scope">
+					<ul class="nav">
+						<li>
+							<a href="/templates/index.html">
+								<img src="/templates/img/foot01.png" alt="">
+								<p>首页</p>
+							</a>
+						</li>
+						<li>
+							<a href="/templates/market.html">
+								<img src="/templates/img/foot04.png" alt="">
+								<p>商品</p>
+							</a>
+						</li>
+						<li>
+							<a href="/templates/cart.html">
+								<img src="/templates/img/foot02.png" alt="">
+								<p>购物车</p>
+							</a>
+							<i id="cartnum" class="ng-binding cartnum">0</i>
+						</li>
+						<li>
+							<a href="/templates/mine.html">
+								<img src="/templates/img/foot03.png" alt="">
+								<p>我的</p>
+							</a>
+						</li>
+
+					</ul>
+				</nav>
+				<!--/底部导航-->	
+	</body>
+</html>

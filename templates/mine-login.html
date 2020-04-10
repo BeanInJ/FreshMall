@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!-- Title here -->
+		<title>用户登录</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="生鲜购物商城" />
+		<meta name="keywords" content="生鲜购物商城" />
+		<meta name="author" content="生鲜购物商城" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=no" />
+		<link rel="shortcut icon" href="/templates/img/icon.png" type="image/x-icon">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" type="text/css" href="/templates/css/style.css" />
+		<link rel="stylesheet" href="/templates/css/mine-register.css">
+		<!-- js -->
+		<script type="text/javascript" src="/templates/js/jquery.js"></script>
+		<script type="text/javascript" src="/templates/js/custom.js"></script>
+		<script type="text/javascript" src="/templates/js/md5.js"></script>
+		<script type="text/javascript" src="/templates/js/mine-login.js"></script>
+	</head>
+	<body>
+		<header class="ng-scope">
+			<h4 class="title-order">
+				<a class="title-top" onClick="javascript :history.back(-1);">用户登录</a>
+			</h4>
+		</header>
+
+		<div class="container">
+			
+			<form action="/" onsubmit="return parse_data()">
+				
+				<span id="err" style="color: red;"></span>
+				<div class="form-group">
+					<label for="username_input" id="label_red">用户名</label>
+					<input name="u_name" type="text" class="form-control" id="username_input" placeholder="请输入用户名">
+					<span id="username_info" style="color: red;"></span>
+				</div>
+				<div class="form-group">
+					<label for="password_input" id="label_red">密码</label>
+					<input name="u_password" type="password" class="form-control" id="password_input" placeholder="请输入密码">
+					<span id="password_info" style="color: red;"></span>
+				</div>
+				<br>
+				<span>验证码:</span><input id="verify_code" type="text" name="verify_code" placeholder="请输入图中的验证码">
+				<img src="/static/getcode/">
+				<br>
+				<span id="verify_code_info" style="color: red;"></span>
+				<br>
+				<br>
+				<button type="submit" class="btn btn-success btn-block">登录</button>
+			</form>
+			<br>
+			<br>
+			<br>
+			<span id="is_debug" style="color: gray; font-size: 6px;"></span><br>
+			<br>
+		</div>
+	</body>

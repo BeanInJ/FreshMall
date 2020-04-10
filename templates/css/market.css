@@ -1,0 +1,80 @@
+/* .t_r {
+	margin-left: 80px;
+}
+ */
+.t_r_div {
+	border-bottom: 1px solid #f0f0f0;
+	/* padding-bottom: 10px; */
+	padding-top: 10px;
+	padding-left: 35px;
+	position: fixed;
+	top: 0;
+	background-color: #f6f8fb;
+	width: 100%;
+	height: 30px;
+}
+
+.t>span.active {
+	border-bottom: 3px solid #FA2C2A;
+	color: #FA2C2A;
+}
+
+.t {
+	font-size: 14px;
+	text-align: center;
+}
+
+#grey {
+	position: fixed;
+	background-color: gray;
+
+	height: 100%;
+	margin-top: 10px;
+	padding-left: 46px;
+	/*  半透明 各个浏览器支持*/
+	filter: alpha(Opacity=90);
+	-moz-opacity: 0.9;
+	opacity: 0.9;
+}
+
+.bnb {
+	background: white;
+	padding-bottom: 0.6rem;
+
+}
+
+.btn-default {
+	color: #333;
+	background-color: #fff;
+	border-color: #ccc;
+}
+
+.btn-success {
+	color: #fff;
+	background-color: #5cb85c;
+	border: 1px solid transparent;
+}
+
+.bnn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-image: none;
+	border-radius: 4px;
+	margin-left: 0.6rem;
+	margin-top: 0.6rem;
+}
+
+.foods_list {
+	margin-top: 35px;
+	margin-left: 86px;
+	margin-bottom: 80px;
+}

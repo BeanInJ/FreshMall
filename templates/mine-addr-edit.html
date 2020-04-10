@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!-- Title here -->
+		<title>用户登录</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="生鲜购物商城" />
+		<meta name="keywords" content="生鲜购物商城" />
+		<meta name="author" content="生鲜购物商城" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=no" />
+		<link rel="shortcut icon" href="/templates/img/icon.png" type="image/x-icon">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" type="text/css" href="/templates/css/style.css" />
+		<link rel="stylesheet" href="/templates/css/mine-addr-new.css">
+		<!-- js -->
+		<script type="text/javascript" src="/templates/js/jquery.js"></script>
+		<script type="text/javascript" src="/templates/js/custom.js"></script>
+		<script type="text/javascript" src="/templates/js/mine-addr-edit.js"></script>
+	</head>
+	<body>
+		<header class="ng-scope">
+			<h4 class="title-order">
+				<a class="title-top" onClick="javascript :history.back(-1);">编辑地址</a>
+			</h4>
+		</header>
+		<div class="addr_con">
+			<input class="aui-Address-box-input" id="order_name" placeholder="收货人姓名" type="text">
+			<input class="aui-Address-box-input" id="tell" placeholder="收货手机号码" type="text">
+			<select class="aui-Address-box-select" id="p">
+				<option selected="selected" value="0">选择省</option>
+			</select>
+			<select class="aui-Address-box-select" id="c">
+				<option selected="selected" value="0">选择市</option>
+			</select>
+			<select class="aui-Address-box-select" id="a">
+				<option selected="selected" value="0">选择区/县</option>
+			</select>
+			<input class="aui-Address-box-input" id="addr_dail" placeholder="详细地址" type="text">
+			<div class="checkbox">
+				<span id="checkbox">设为默认地址<input name="is_default" type="checkbox"></span>
+			</div>
+			<a class="red-color" id="btnSave">确定</a>
+			</div>
+
+	</body>

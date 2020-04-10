@@ -1,0 +1,43 @@
+首页  index
+商品  market
+购物车  cart
+我的  mine
+
+pay.html  提交订单->付款
+order.html  我的订单
+comments.html  客服/反馈
+memberPoints.html 积分明细
+
+
+积分：每消费1元积一分，每1积分抵0.01元
+
+redis 存 登录状态 邮件激活码 :都是用uuid生成的唯一码做key,user.id做值   邮件激活除了用redis保存激活码外,还用session保存激活状态相关的信息
+session 存验证码
+
+
+
+注册页面废弃js代码
+if (!(username + email_o + password_o)) {
+		var formData = new FormData();
+		// let form_data = $("form").serialize();
+		formData.append("u_icon", $("#icon_input")[0].files[0]);
+		formData.append("u_name", $("#username_input").val());
+		formData.append("u_password", $("#password_input").val());
+		formData.append("u_email", $("#email_input").val());
+		formData.append("u_phone", $("#tell_input").val());
+		
+		console.log(form_data)
+		$(".container").empty();
+		$(".container").append('<br><br><br><span style="text-align: center;">正在发送激活邮件....</span><br><br>');
+		$.post('../static/user/?action=register', form_data, function(data) {
+			if (data["status"] != 200) {
+				if (data["msg"]) {
+					alert(data["msg"]);
+					$(location).prop('href', '/templates/mine-register.html');
+				};
+			} else {
+				$(location).prop('href', '/templates/mine-login.html');
+			}
+		});
+		// return true;
+	}
